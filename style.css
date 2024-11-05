@@ -4,13 +4,13 @@ html{
 
 body {   
     background-image: url(imagens/bg.jpg);
-    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    background-attachment: fixed; /* Fixar a imagem no fundo, sem scroll */
-    min-height: 100vh; /* Garante que o corpo ocupe 100% da altura da tela */
-    margin: 0; /* Remove margens padrão */
-    overflow: hidden; /* Impede o scroll da página */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh; 
+    margin: 0; 
+    overflow: hidden; 
     background-color: black;
 }
 
