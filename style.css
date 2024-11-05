@@ -1,0 +1,60 @@
+html{
+    cursor: url(imagens/mata_mosca.png) 30 30, auto;
+}
+
+body {   
+    background-image: url(imagens/bg.jpg);
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Fixar a imagem no fundo, sem scroll */
+    min-height: 100vh; /* Garante que o corpo ocupe 100% da altura da tela */
+    margin: 0; /* Remove margens padrão */
+    overflow: hidden; /* Impede o scroll da página */
+    background-color: black;
+}
+
+.mosca1{
+    width: 50px;
+    height: 50px;
+}
+
+.mosca2{
+    width: 70px;
+    height: 70px;
+}
+
+.mosca3{
+    width: 90px;
+    height: 90px;
+}
+
+.ladoA{
+    transform: scaleX(1);
+}
+
+.ladoB{
+    transform: scaleX(-1);
+}
+
+.painel{
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vidas{
+    float: left;
+
+}
+
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
